@@ -114,6 +114,8 @@ main{
     background-color: black;
     color: white;
     height: 2rem;
+    text-align: center;
+    line-height: 2rem;
 }
 
 #watch{
@@ -127,6 +129,8 @@ main{
     background-color: black;
     color: white;
     height: 2rem;
+    text-align: center;
+    line-height: 2rem;
 }
 
 #glasses{
@@ -140,6 +144,8 @@ main{
     background-color: black;
     color: white;
     height: 2rem;
+    text-align: center;
+    line-height: 2rem;
 }
 
 /* local section */
@@ -155,8 +161,9 @@ main{
      background-color: #000000;
      color: #fff;
      height: 3rem;
-     margin: 0 19.5rem 0 4rem;
-     width: 350px;
+     margin: 0 4rem;
+     width: 35%;
+     padding: 0 2rem;
  }
 
  .bottom{
@@ -172,6 +179,11 @@ main{
  .hours{
      display: block;
  }
+
+ .location .top{
+    text-align: left;
+    line-height: 3rem;
+}
 
 /* footer section */
 
@@ -206,6 +218,11 @@ body{
    display: inline-flex;
    width: 35%px;
    }
+
+   .location .top{
+    text-align: center;
+    line-height: 3rem;
+}
 
 
    footer{
