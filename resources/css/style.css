@@ -90,7 +90,6 @@ main{
 .container{
     width: 100%;
     height: auto;
-
     margin: auto;
 }
 
@@ -99,9 +98,9 @@ main{
 .product{
     display: inline-flex;
     width: 100%;
-
     justify-content: space-evenly;
     border: 1px solid red;
+    margin: 1.5rem 0;
 }
 
 #pen{
@@ -143,6 +142,37 @@ main{
     height: 2rem;
 }
 
+/* local section */
+
+.location{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+ .top{
+     background-color: #000000;
+     color: #fff;
+     height: 3rem;
+     margin: 0 19.5rem 0 4rem;
+     width: 350px;
+ }
+
+ .bottom{
+     height: 3rem;
+     margin: 0 19.5rem 0 4rem;
+     width: 350px;
+ }
+
+ .local{
+     display: block;
+ }
+
+ .hours{
+     display: block;
+ }
+
 /* footer section */
 
 footer{
@@ -177,9 +207,6 @@ body{
    width: 35%px;
    }
 
-   nav{
-       max-width: 1024px;
-   }
 
    footer{
        max-width: 1024px;
