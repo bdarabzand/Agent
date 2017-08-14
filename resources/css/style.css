@@ -80,16 +80,19 @@ nav li{
      padding: 0 4rem;
 }
 
+.mobile-nav{
+    display: none;
+}
+
 /* main section */
 
 main{
    margin: 0;
 }
 
-.container{
-    width: 100%;
-    height: auto;
-    margin: auto;
+.container {
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 /* products section */
@@ -159,13 +162,13 @@ main{
      color: #fff;
      height: 3rem;
      margin: 0 4rem;
-     width: 35%;
+     width: 350px;
      padding: 0 2rem;
  }
 
  .bottom{
      height: 3rem;
-     margin: 0 19.5rem 0 4rem;
+     margin: 0 4rem 0 4rem;
      width: 350px;
  }
 
@@ -195,3 +198,46 @@ footer{
 }
 
 /* responsive codes */
+
+@media only screen and (max-width: 1024px){
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+  #banner-text p{
+      font-size: 14px;
+  }
+
+  #banner-text h1{
+      font-size: 30px;
+  }
+
+ .mobile-nav {
+    display: block;
+    text-align: center;
+    line-height: 2.2rem;
+    margin: auto;
+}
+
+nav ul{
+    display: none;
+}
+
+#glasses{
+    display: none;
+}
+
+#pen, #watch{
+    width: 400px;
+}
+ .top, .bottom{
+    width: 250px;
+ }
+
+ footer{
+     width: 99.5%;
+ }
+
+}
