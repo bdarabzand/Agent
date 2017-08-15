@@ -5,6 +5,7 @@
 body{
     width: 100%;
     font-family: Helvetica;
+    margin: auto;
 }
 
 
@@ -201,10 +202,7 @@ footer{
 
 @media only screen and (max-width: 1024px){
 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-}
+
 
   #banner-text p{
       font-size: 14px;
@@ -232,12 +230,48 @@ nav ul{
 #pen, #watch{
     width: 400px;
 }
+
  .top, .bottom{
     width: 250px;
  }
 
  footer{
      width: 99.5%;
+ }
+
+}
+
+@media only screen and (max-width: 470px){
+
+ #logo{
+     width: 100%;
+     font-size: 15px;
+ }
+
+ #banner-text p{
+      font-size: 12px;
+  }
+
+ #banner-text h1{
+      font-size: 16px;
+  }
+
+  #watch{
+      display: none;
+  }
+
+  #pen{
+      width: 90%;
+  }
+
+  .location{
+  flex-direction: column;
+  width: 90%;
+ }
+
+ footer{
+    justify-content: center;
+     width: 99%;
  }
 
 }
