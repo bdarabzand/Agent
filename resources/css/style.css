@@ -1,277 +1,557 @@
 ﻿html{
+
      font-size: 18px;
+
 }
 
+
+
 body{
+
     width: 100%;
+
     font-family: Helvetica;
+
     margin: auto;
+
 }
+
+
+
 
 
 /* logo section */
 
+
+
 #logo{
+
     background-color: black;
+
     color: white;
+
     display: flex;
+
     height: 2.32rem;
+
     padding: 1.5rem 0;
+
     font-size: 1rem;
+
     align-items: center;
+
 }
 
+
+
 #logo img{
+
     padding-left: 5rem;
+
     padding-right:1rem;
+
 }
+
+
 
 /* main banner section */
 
+
+
 .banner{
+
     background-image: url("../images/moto.jpeg");
+
     background-repeat: no-repeat;
+
     background-size: cover;
+
     height: 25rem;
+
     width: 100%;
+
     background-position: center;
+
     display: flex;
+
 }
 
-#banner-text{
+
+
+.banner-text{
+
     background-color: black;
+
     color: white;
+
     width: 20rem;
+
     padding: 2rem 3rem;
+
     margin-top: 9rem;
+
     margin-bottom: 6rem;
+
     margin-left: 6rem;
+
 }
 
-#banner-text p{
+
+
+.banner-text p{
+
     font-size: 1rem;
+
     font-weight: bold;
+
 }
 
-#banner-text h1{
+
+
+.banner-text h1{
+
     font-size: 2rem;
+
     font-weight: bold;
+
     margin-top: 0.25rem;
+
 }
+
+
 
 /* nav section */
 
+
+
 nav{
+
     width: 100%;
+
     height: 2.2rem;
+
     background-color: firebrick;
+
     color: white;
+
     font-size: 1rem;
+
     display: flex;
+
 }
+
+
 
 nav ul{
+
     display: flex;
+
     flex-direction: row;
+
     align-items: center;
+
     justify-content: space-around;
+
 }
+
+
 
 nav li{
+
      padding: 0 4rem;
+
 }
 
+
+
 .mobile-nav{
+
     display: none;
+
 }
+
+
 
 /* main section */
 
+
+
 main{
+
    margin: 0;
+
 }
 
+
+
 .container {
+
     max-width: 100%;
+
     margin: 0 auto;
+
 }
+
+
 
 /* products section */
 
+
+
 .product{
+
     display: inline-flex;
+
     width: 100%;
+
     justify-content: space-evenly;
+
     margin: 1.5rem 0;
+
 }
+
+
 
 #pen{
+
     width: 25%;
+
     border: 4px solid black;
+
     display: block;
+
     text-align: center;
+
 }
+
+
 
 #pen div{
+
     background-color: black;
+
     color: white;
+
     height: 2rem;
+
     text-align: center;
+
     line-height: 2rem;
+
 }
+
+
 
 #watch{
+
     width: 25%;
+
     border: 4px solid black;
+
     display: block;
+
     text-align: center;
+
 }
+
+
 
 #watch div{
+
     background-color: black;
+
     color: white;
+
     height: 2rem;
+
     text-align: center;
+
     line-height: 2rem;
+
 }
+
+
 
 #glasses{
+
     width: 25%;
+
     border: 4px solid black;
+
     display: block;
+
     text-align: center;
+
 }
 
+
+
 #glasses div{
+
     background-color: black;
+
     color: white;
+
     height: 2rem;
+
     text-align: center;
+
     line-height: 2rem;
+
 }
+
+
 
 /* local section */
 
+
+
 .location{
+
     display: inline-flex;
+
     width: 100%;
+
     justify-content: space-between;
+
 }
+
+
 
  .top{
+
      background-color: #000000;
+
      color: #fff;
+
      height: 3rem;
+
      margin: 0 4rem;
+
      width: 350px;
+
      padding: 0 2rem;
+
  }
+
+
 
  .bottom{
+
      height: 3rem;
+
      margin: 0 4rem 0 4rem;
+
      width: 350px;
+
  }
+
+
 
  .local{
+
      display: block;
+
  }
+
+
 
  .hours{
+
      display: block;
+
  }
 
+
+
  .location .top{
+
     text-align: left;
+
     line-height: 3rem;
+
 }
+
+
 
 /* footer section */
 
+
+
 footer{
+
     display: flex;
+
     align-items: center;
+
     width: 100%;
+
     height: 5rem;
+
     background-color: black;
+
     color: white;
+
     text-align: left;
+
 }
 
+
+
 /* responsive codes */
+
+
 
 @media only screen and (max-width: 1024px){
 
 
 
-  #banner-text p{
+
+
+
+
+.banner-text p{
+
       font-size: 14px;
+
   }
 
-  #banner-text h1{
+
+
+.banner-text h1{
+
       font-size: 30px;
+
   }
+
+
 
  .mobile-nav {
+
     display: block;
+
     text-align: center;
+
     line-height: 2.2rem;
+
     margin: auto;
+
 }
+
+
 
 nav ul{
+
     display: none;
+
 }
+
+
 
 #glasses{
+
     display: none;
+
 }
+
+
 
 #pen, #watch{
+
     width: 400px;
+
 }
+
+
 
  .top, .bottom{
+
     width: 250px;
+
  }
+
+
 
  footer{
+
      width: 99.5%;
+
  }
 
+
+
 }
+
+
 
 @media only screen and (max-width: 470px){
 
+
+
  #logo{
+
      width: 100%;
+
      font-size: 15px;
+
  }
 
- #banner-text p{
+ .banner-text{
+     align-self: flex-end;
+ }
+
+
+
+ .banner-text p{
+
       font-size: 12px;
+
   }
 
- #banner-text h1{
+
+
+ .banner-text h1{
+
       font-size: 16px;
+
   }
+
+
 
   #watch{
+
       display: none;
+
   }
+
+
 
   #pen{
+
       width: 90%;
+
   }
 
+
+
   .location{
+
   flex-direction: column;
+
   width: 90%;
+
  }
 
+
+
  footer{
+
     justify-content: center;
+
      width: 99%;
+
  }
+
+
 
 }
