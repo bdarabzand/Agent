@@ -486,7 +486,10 @@ nav ul{
 
 @media only screen and (max-width: 470px){
 
-
+body{
+    width: 100%
+    margin: 0;
+}
 
  #logo{
 
@@ -498,6 +501,7 @@ nav ul{
 
  .banner-text{
      align-self: flex-end;
+     margin: 0;
  }
 
 
